@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 48" width="220" height="48" fill="none">
+  
+  <path d="M12 36L19 16H26L19 36H12Z" fill="#D4F853" />
+  <path d="M24 36L32 12H39L31 36H24Z" fill="#FFFFFF" />
+  <path d="M36 28L41.5 12H48.5L43 28H36Z" fill="#D4F853" />
+  
+  <text x="60" y="34" fill="#FFFFFF" font-family="system-ui, -apple-system, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="28" font-weight="800" font-style="italic" letter-spacing="-0.5">Flexfit</text>
+</svg>

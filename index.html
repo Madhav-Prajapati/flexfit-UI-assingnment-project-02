@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flexfit | Become a Stronger Self</title>
+
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+   <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="bg-[#0E0E0E] text-white antialiased font-['Inter',sans-serif]">
+
+  <section class="relative overflow-hidden bg-[#0E0E0E]">
+
+    <div class="absolute inset-0 bg-no-repeat bg-cover bg-[position:70%_center] lg:bg-right opacity-40 lg:opacity-100 bg-[url('hero.jpg')]"><img src="./public/modelimg.jpeg" alt=""></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-[#0E0E0E] via-[#0E0E0E]/70 to-transparent lg:from-transparent lg:via-transparent"></div>
+    <div class="absolute -top-24 -left-24 w-[420px] h-[420px] rounded-full bg-[#D4F853]/5 blur-3xl"></div>
+
+    <div class="relative max-w-[1200px] mx-auto px-6">
+      <input type="checkbox" id="menu" class="peer hidden" />
+
+      <header class="flex items-center justify-between py-8">
+       
+        <a href="#" class="flex items-center">
+          <svg viewBox="0 0 220 48" width="130" height="30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 36L19 16H26L19 36H12Z" fill="#D4F853" />
+            <path d="M24 36L32 12H39L31 36H24Z" fill="#FFFFFF" />
+            <path d="M36 28L41.5 12H48.5L43 28H36Z" fill="#D4F853" />
+            <text x="60" y="34" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" font-style="italic" letter-spacing="-0.5">Flexfit</text>
+          </svg>
+        </a>
+
+        <nav class="hidden md:flex items-center gap-12 text-[13px] font-medium">
+          <a href="#" class="text-white">Home</a>
+          <a href="#programs" class="text-neutral-500 hover:text-white transition">Classes</a>
+          <a href="#" class="text-neutral-500 hover:text-white transition">About</a>
+          <a href="#" class="text-neutral-500 hover:text-white transition">Membership</a>
+          <a href="#" class="text-neutral-500 hover:text-white transition">Contact</a>
+        </nav>
+
+        <a href="#" class="hidden md:inline-block text-[12px] font-semibold border border-[#D4F853] text-white rounded-full px-6 py-2.5 hover:bg-[#D4F853] hover:text-black transition">
+          Join Now
+        </a>
+
+        <label for="menu" class="md:hidden p-2 cursor-pointer" aria-label="Menu">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D4F853" stroke-width="2" stroke-linecap="round">
+            <path d="M4 7h16M4 12h16M4 17h16" />
+          </svg>
+        </label>
+      </header>
+
+      <div class="hidden peer-checked:flex md:hidden pb-6 flex-col gap-4 text-sm">
+        <a href="#" class="text-white">Home</a>
+        <a href="#programs" class="text-neutral-400">Classes</a>
+        <a href="#" class="text-neutral-400">About</a>
+        <a href="#" class="text-neutral-400">Membership</a>
+        <a href="#" class="text-neutral-400">Contact</a>
+        <a href="#" class="self-start border border-[#D4F853] rounded-full px-6 py-2 text-xs font-semibold">Join Now</a>
+      </div>
+
+      <div class="min-h-[520px] lg:min-h-[640px] flex flex-col justify-center pt-10 pb-24 lg:pt-0 lg:pb-16">
+        <p class="font-['Bebas_Neue',sans-serif] text-[#D4F853] text-2xl tracking-[0.14em]">FINALLY READY</p>
+
+        <h1 class="font-['Bebas_Neue',sans-serif] text-white leading-[0.95] text-[64px] sm:text-[84px] lg:text-[96px] mt-3">
+          TO BECOME <br />
+          <span class="text-[#D4F853] [text-shadow:0_0_22px_rgba(212,248,83,0.55),0_0_4px_rgba(212,248,83,0.6)]">STRONGER</span> SELF?
+        </h1>
+
+        <p class="mt-12 max-w-[520px] text-[14px] leading-relaxed text-neutral-300">
+          Join one of our 100+ award-winning programs with our professional couch in one of our gyms across the country. Results will amaze you just after the first month.
+        </p>
+
+        <div class="mt-10 flex items-center gap-8">
+          <a href="#programs" class="bg-[#CBF65B] text-black italic font-extrabold text-[14px] tracking-wide uppercase rounded-full px-9 py-4 hover:brightness-110 hover:scale-[1.03] transition">
+            Join Today
+          </a>
+          <a href="#programs" class="flex items-center gap-2 text-[14px] font-medium hover:text-[#D4F853] transition">
+            Learn More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7" /></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="programs" class="relative bg-[#0E0E0E] overflow-hidden py-24">
+
+    <div class="absolute left-6 lg:left-[130px] top-10 w-[140px] h-[190px] opacity-60 hidden sm:block bg-[radial-gradient(#3a3a3a_1.4px,transparent_1.6px)] bg-[length:18px_18px]"></div>
+
+    <div class="absolute inset-x-0 top-6 flex justify-center pointer-events-none select-none">
+      <span class="font-['Bebas_Neue',sans-serif] italic text-[200px] sm:text-[300px] leading-none text-white/[0.035]">1 Step</span>
+    </div>
+
+    <div class="relative max-w-[1200px] mx-auto px-6">
+
+      <div class="text-center">
+        <p class="font-['Bebas_Neue',sans-serif] text-[#D4F853] text-xl tracking-[0.14em]">FIRST STEP</p>
+        <h2 class="font-['Bebas_Neue',sans-serif] text-white text-5xl sm:text-6xl mt-1">CHOOSE A PROGRAM</h2>
+      </div>
+
+      <div class="mt-24 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <article class="bg-[#151515] border border-[#262626] rounded-2xl p-7 flex flex-col transition duration-300 hover:-translate-y-1.5 hover:border-[#D4F853]/60">
+          <svg class="w-12 h-12" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="24" cy="24" r="24" class="fill-[#262626]" />
+            <rect x="12" y="20" width="3" height="8" rx="1" class="fill-[#D4F853]" />
+            <rect x="16" y="16" width="4" height="16" rx="1.5" class="fill-[#D4F853]" />
+            <rect x="20" y="22.5" width="8" height="3" class="fill-[#D4F853]" />
+            <rect x="28" y="16" width="4" height="16" rx="1.5" class="fill-[#D4F853]" />
+            <rect x="33" y="20" width="3" height="8" rx="1" class="fill-[#D4F853]" />
+          </svg>
+          <h3 class="mt-6 text-[15px] font-semibold">Strength Training</h3>
+          <p class="mt-4 text-[12.5px] leading-relaxed text-neutral-500 flex-1">
+            Builds muscle, boosts metabolism, enhances strength, improves bone density, joint health.
+          </p>
+          <a href="#" class="mt-6 inline-flex items-center gap-2 text-[12px] font-semibold hover:text-[#D4F853] transition">
+            Join Now
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#D4F853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7" /></svg>
+          </a>
+        </article>
+
+        <article class="bg-[#181A12] border border-[#D4F853]/70 rounded-2xl p-7 flex flex-col lg:-translate-y-3 shadow-[0_0_40px_-12px_rgba(212,248,83,0.35)] transition duration-300 hover:-translate-y-1.5">
+          <svg class="w-12 h-12" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="24" cy="24" r="24" class="fill-[#D4F853]" />
+            <circle cx="27.5" cy="14.5" r="2.5" class="fill-[#141414]" />
+            <path d="M21 19.5L25.5 18L29 21.5L32.5 20.5M24.5 19L22.5 25.5L27 28.5L25.5 34.5M22.5 25.5L17.5 28L15.5 26" class="stroke-[#141414]" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <h3 class="mt-6 text-[15px] font-semibold">HIIT Training</h3>
+          <p class="mt-4 text-[12.5px] leading-relaxed text-neutral-400 flex-1">
+            High-intensity intervals, quick bursts, maximizes calorie burn, boosts metabolism, efficient, diverse workouts.
+          </p>
+          <a href="#" class="mt-6 inline-flex items-center gap-2 text-[12px] font-semibold hover:text-[#D4F853] transition">
+            Join Now
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#D4F853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7" /></svg>
+          </a>
+        </article>
+
+        <article class="bg-[#151515] border border-[#262626] rounded-2xl p-7 flex flex-col transition duration-300 hover:-translate-y-1.5 hover:border-[#D4F853]/60">
+          <svg class="w-12 h-12" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="24" cy="24" r="24" class="fill-[#262626]" />
+            <path d="M24 34.5C24 34.5 13 27.2 13 19.8C13 16.5 15.6 14 18.8 14C20.8 14 22.6 15 24 16.6C25.4 15 27.2 14 29.2 14C32.4 14 35 16.5 35 19.8C35 27.2 24 34.5 24 34.5Z" class="fill-[#D4F853]" />
+            <path d="M16 23H19.5L21.5 19.5L24.5 26.5L26.5 23H32" class="stroke-[#262626]" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <h3 class="mt-6 text-[15px] font-semibold">Cardio Workouts</h3>
+          <p class="mt-4 text-[12.5px] leading-relaxed text-neutral-500 flex-1">
+            Cardio boosts heart health, endurance, and metabolism through rhythmic, sustained physical activities.
+          </p>
+          <a href="#" class="mt-6 inline-flex items-center gap-2 text-[12px] font-semibold hover:text-[#D4F853] transition">
+            Join Now
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#D4F853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7" /></svg>
+          </a>
+        </article>
+
+        <article class="bg-[#151515] border border-[#262626] rounded-2xl p-7 flex flex-col transition duration-300 hover:-translate-y-1.5 hover:border-[#D4F853]/60">
+          <svg class="w-12 h-12" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="24" cy="24" r="24" class="fill-[#262626]" />
+            <circle cx="23.5" cy="15.5" r="2.3" class="fill-[#D4F853]" />
+            <path d="M22.5 19.5V27L20.5 34.5M22.5 27L26.5 34.5M22.5 20.5C25.5 18 28.5 16.5 30 14.5" class="stroke-[#D4F853]" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <h3 class="mt-6 text-[15px] font-semibold">Stretching</h3>
+          <p class="mt-4 text-[12.5px] leading-relaxed text-neutral-500 flex-1">
+            Promotes flexibility, improves range of motion, enhances circulation, and reduces muscle tension.
+          </p>
+          <a href="#" class="mt-6 inline-flex items-center gap-2 text-[12px] font-semibold hover:text-[#D4F853] transition">
+            Join Now
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#D4F853" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7" /></svg>
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
